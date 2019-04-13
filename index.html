@@ -12,7 +12,58 @@
 </head>
 
 <body>
-    <script src="app.js"></script>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">New York Times</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+
+    <form>
+
+        <button type="submit" class="btn btn-primary">Search Parameters</button>
+
+        <div class="form-group">
+            <label for="searchParameters">Search Term</label>
+            <input type="email" class="form-control" id="searchParameters" aria-describedby="emailHelp" placeholder="">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Number of Records to Retrieve</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+            </select>
+        </div>
+
+        <label for="startYear">Start Year (Optional):</label>
+        <input type="" class="form-control" id="startYear" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="endYear">End Year (Optional):</label>
+            <input type="" class="form-control" id="endYear" placeholder="">
+        </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+        <button type="submit" class="btn btn-primary">Clear Results</button>
+
+
+        <!-- This is our empty Div after our buttons -->
+
+        <div class="article-section">
+        </div>
+
+
+    </form>
+
+
+    <script src=" app.js">
+    </script>
 
 </body>
 
